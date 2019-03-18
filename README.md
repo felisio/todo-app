@@ -1,2 +1,2 @@
 # todo-app
-A React Native Todo App
+React Native Todo App
