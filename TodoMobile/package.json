@@ -1,0 +1,38 @@
+{
+  "name": "TodoMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-client": "^2.5.1",
+    "enzyme": "^3.9.0",
+    "enzyme-to-json": "^3.3.5",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "jest-enzyme": "^7.0.2",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.2",
+    "react-native": "0.59.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-vector-icons": "^6.4.1",
+    "react-navigation": "^3.4.1",
+    "waait": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
